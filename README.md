@@ -13,14 +13,14 @@
 ## bpsテーブル
 |Column|Type|Options|
 |------|----|-------|
-|measure_date|datetime|null: false|
+|measure_date|date|null: false|
 |term|int|active_hash|
-|measure_time|datetime|active_hash|
+|measure_time|time||
 |top_bp|int|null:false|
 |bottom_bp|int|null:false|
 |pulse|int|null:false|
 |med_chk|boolean||
-|weight|int||
+|weight|float||
 |user|references|foreign_key: true|
 ### Association
 - belongs_to :user
@@ -28,14 +28,14 @@
 ## trainingsテーブル
 |Column|Type|Options|
 |------|----|-------|
-|training_date|datetime|null: false|
+|training_date|date|null: false|
 |top_bp|int||
 |bottom_bp|int||
-|pulse|int|null:false|
+|pulse|int||
 |condition|int|active_hash|
 |sleeping|int|active_hash|
 |eat|int||
-|weight|int||
+|weight|float||
 |med_chk|boolean||
 |breath_index|int|null:false|
 |leg_index|int|null:false|
