@@ -1,3 +1,21 @@
-// Place all the styles related to the homes controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: https://sass-lang.com/
+.main-contents{
+  margin:0 auto;
+  width:50%;
+  text-align: center;
+}
+.main-title{
+  font-size: 3rem;
+  margin-bottom: 40px;
+}
+.home-btn{
+  font-size: 2rem;
+  background-color: lightgreen;
+  cursor: pointer;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding-top:16px;
+  padding-bottom: 16px;
+}
+.footer{
+  margin-top: 100px;
+}
