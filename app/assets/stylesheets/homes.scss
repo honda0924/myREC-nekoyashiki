@@ -1,0 +1,22 @@
+.main-contents{
+  margin:0 auto;
+  width:50%;
+  text-align: center;
+}
+.main-title{
+  font-size: 3rem;
+  margin-bottom: 40px;
+}
+.home-btn{
+  font-size: 2rem;
+  background-color: lightgreen;
+  cursor: pointer;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding-top:16px;
+  padding-bottom: 16px;
+  &__logout{
+    margin:80px auto;
+    background-color: red;
+  }
+}
