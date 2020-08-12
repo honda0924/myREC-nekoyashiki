@@ -9,6 +9,10 @@
         %br/
         = f.email_field :email, autofocus: true, autocomplete: "email"
       .input-field
+        = f.label '名前'
+        %br/
+        = f.text_field :name, autofocus: true
+      .input-field
         = f.label 'パスワード（6文字以上）'
         %br/
         = f.password_field :password, autocomplete: "new-password"

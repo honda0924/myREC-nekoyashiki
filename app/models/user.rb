@@ -5,4 +5,6 @@ class User < ApplicationRecord
          :recoverable, :rememberable, :validatable
   has_many :bps
   has_many :trainings
+
+  validates :name,presence: true
 end
